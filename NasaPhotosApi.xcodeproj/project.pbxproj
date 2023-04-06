@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455CBE2E29DE245300CA9398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE2D29DE245300CA9398 /* AppDelegate.swift */; };
+		455CBE3029DE245300CA9398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE2F29DE245300CA9398 /* SceneDelegate.swift */; };
+		455CBE3229DE245300CA9398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE3129DE245300CA9398 /* ViewController.swift */; };
+		455CBE3529DE245300CA9398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CBE3329DE245300CA9398 /* Main.storyboard */; };
+		455CBE3829DE245300CA9398 /* NasaPhotosApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE3629DE245300CA9398 /* NasaPhotosApi.xcdatamodeld */; };
+		455CBE3A29DE245500CA9398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455CBE3929DE245500CA9398 /* Assets.xcassets */; };
+		455CBE3D29DE245500CA9398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455CBE3B29DE245500CA9398 /* LaunchScreen.storyboard */; };
+		455CBE4729DE2B5100CA9398 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE4629DE2B5100CA9398 /* Photo.swift */; };
+		455CBE4929DE331A00CA9398 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE4829DE331A00CA9398 /* Constants.swift */; };
+		455CBE4B29DED01E00CA9398 /* LatestPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455CBE4A29DED01E00CA9398 /* LatestPhotos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		455CBE2A29DE245300CA9398 /* NasaPhotosApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPhotosApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455CBE2D29DE245300CA9398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455CBE2F29DE245300CA9398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		455CBE3129DE245300CA9398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		455CBE3429DE245300CA9398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455CBE3729DE245300CA9398 /* NasaPhotosApi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NasaPhotosApi.xcdatamodel; sourceTree = "<group>"; };
+		455CBE3929DE245500CA9398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455CBE3C29DE245500CA9398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455CBE3E29DE245500CA9398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455CBE4629DE2B5100CA9398 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		455CBE4829DE331A00CA9398 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		455CBE4A29DED01E00CA9398 /* LatestPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestPhotos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455CBE2729DE245300CA9398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455CBE2129DE245300CA9398 = {
+			isa = PBXGroup;
+			children = (
+				455CBE2C29DE245300CA9398 /* NasaPhotosApi */,
+				455CBE2B29DE245300CA9398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		455CBE2B29DE245300CA9398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455CBE2A29DE245300CA9398 /* NasaPhotosApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455CBE2C29DE245300CA9398 /* NasaPhotosApi */ = {
+			isa = PBXGroup;
+			children = (
+				455CBE2D29DE245300CA9398 /* AppDelegate.swift */,
+				455CBE2F29DE245300CA9398 /* SceneDelegate.swift */,
+				455CBE3129DE245300CA9398 /* ViewController.swift */,
+				455CBE4629DE2B5100CA9398 /* Photo.swift */,
+				455CBE4A29DED01E00CA9398 /* LatestPhotos.swift */,
+				455CBE4829DE331A00CA9398 /* Constants.swift */,
+				455CBE3329DE245300CA9398 /* Main.storyboard */,
+				455CBE3929DE245500CA9398 /* Assets.xcassets */,
+				455CBE3B29DE245500CA9398 /* LaunchScreen.storyboard */,
+				455CBE3E29DE245500CA9398 /* Info.plist */,
+				455CBE3629DE245300CA9398 /* NasaPhotosApi.xcdatamodeld */,
+			);
+			path = NasaPhotosApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455CBE2929DE245300CA9398 /* NasaPhotosApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455CBE4129DE245500CA9398 /* Build configuration list for PBXNativeTarget "NasaPhotosApi" */;
+			buildPhases = (
+				455CBE2629DE245300CA9398 /* Sources */,
+				455CBE2729DE245300CA9398 /* Frameworks */,
+				455CBE2829DE245300CA9398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaPhotosApi;
+			productName = NasaPhotosApi;
+			productReference = 455CBE2A29DE245300CA9398 /* NasaPhotosApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455CBE2229DE245300CA9398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					455CBE2929DE245300CA9398 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 455CBE2529DE245300CA9398 /* Build configuration list for PBXProject "NasaPhotosApi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455CBE2129DE245300CA9398;
+			productRefGroup = 455CBE2B29DE245300CA9398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455CBE2929DE245300CA9398 /* NasaPhotosApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455CBE2829DE245300CA9398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CBE3D29DE245500CA9398 /* LaunchScreen.storyboard in Resources */,
+				455CBE3A29DE245500CA9398 /* Assets.xcassets in Resources */,
+				455CBE3529DE245300CA9398 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455CBE2629DE245300CA9398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455CBE4B29DED01E00CA9398 /* LatestPhotos.swift in Sources */,
+				455CBE3829DE245300CA9398 /* NasaPhotosApi.xcdatamodeld in Sources */,
+				455CBE3229DE245300CA9398 /* ViewController.swift in Sources */,
+				455CBE2E29DE245300CA9398 /* AppDelegate.swift in Sources */,
+				455CBE3029DE245300CA9398 /* SceneDelegate.swift in Sources */,
+				455CBE4729DE2B5100CA9398 /* Photo.swift in Sources */,
+				455CBE4929DE331A00CA9398 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455CBE3329DE245300CA9398 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455CBE3429DE245300CA9398 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455CBE3B29DE245500CA9398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455CBE3C29DE245500CA9398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455CBE3F29DE245500CA9398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		455CBE4029DE245500CA9398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455CBE4229DE245500CA9398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NasaPhotosApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.NasaPhotosApi.NasaPhotosApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455CBE4329DE245500CA9398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NasaPhotosApi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.NasaPhotosApi.NasaPhotosApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455CBE2529DE245300CA9398 /* Build configuration list for PBXProject "NasaPhotosApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CBE3F29DE245500CA9398 /* Debug */,
+				455CBE4029DE245500CA9398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455CBE4129DE245500CA9398 /* Build configuration list for PBXNativeTarget "NasaPhotosApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455CBE4229DE245500CA9398 /* Debug */,
+				455CBE4329DE245500CA9398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		455CBE3629DE245300CA9398 /* NasaPhotosApi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				455CBE3729DE245300CA9398 /* NasaPhotosApi.xcdatamodel */,
+			);
+			currentVersion = 455CBE3729DE245300CA9398 /* NasaPhotosApi.xcdatamodel */;
+			path = NasaPhotosApi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 455CBE2229DE245300CA9398 /* Project object */;
+}
